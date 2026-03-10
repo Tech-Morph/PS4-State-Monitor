@@ -1,3 +1,5 @@
+# **PS4 State Monitor**
+
 A minimal Flask microservice that exposes a REST API for monitoring your PS4's power state and 
 waking it remotely via Wake-on-LAN (WoL).
 
