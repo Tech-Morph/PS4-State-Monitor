@@ -1,5 +1,7 @@
 # **PS4 State Monitor**
 
+[![Ko-fi](https://img.shields.io/badge/Support%20Me-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/techmorph)
+
 A minimal Flask microservice that exposes a REST API for monitoring your PS4's power state and 
 waking it remotely via Wake-on-LAN (WoL).
 
@@ -16,6 +18,7 @@ Endpoints:
 Fully configurable via environment variables (PS4_MAC, PS4_IP, BROADCAST, etc.).
 Optional Bearer token auth for wake endpoints. Designed for self-hosted setups, 
 Home Assistant REST integrations, or any local automation stack.
+
 ## ⚙️ Environment Variables
 
 All configuration is done via the environment variables. No code changes needed.
@@ -79,3 +82,11 @@ services:
 
 > ⚠️ **Important:** `PS4_MAC`, `PS4_IP`, and `BROADCAST` must all be on the same subnet as 
 > `SEND_INTERFACE`, otherwise Wake-on-LAN packets will not reach your PS4.
+
+---
+
+## 💛 Support
+
+If this project helps your setup, consider supporting development:
+
+[![Ko-fi](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/techmorph)
